@@ -1,0 +1,35 @@
+.form-imput-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 40%;
+}
+
+.form-imput-container * {
+	font-size: 1.2rem;
+	padding: 1%;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-radius: 10px;
+	width: 70%;
+
+}
+
+.user-container {
+	border:1px solid black;
+	max-width: 100%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.form-submit {
+	margin: 2%;
+}
+
+.form-submit * {
+	width: 150px;
+	height: 50px;
+	font-size: 1rem;
+}

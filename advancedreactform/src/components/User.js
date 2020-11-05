@@ -1,4 +1,5 @@
 import React from "react"
+import '../components/form.css'
 
 const User = (props) => {
 	return (

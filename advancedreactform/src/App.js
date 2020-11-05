@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="App">
       <h1>App for user form test</h1>
-      <Form  submitForm={submitForm} inputChange={inputChange} errors={formErrors} formValues={formValues} isDisabled={isDisabled}/>
+      <Form  submitForm={submitForm} inputChange={inputChange} errors={formErrors} formValues={formValues}/>
       <div className="user-container">
         {
           users.map((singleUser) =>{
