@@ -2,7 +2,7 @@ import './App.css';
 import axios from "axios"
 import React, { useState } from "react"
 import * as yup from "yup"
-import Form from "./components/Form"
+import Form from "./components/form"
 import formSchema from "./validation/formSchema"
 import User from "./components/User"
 
